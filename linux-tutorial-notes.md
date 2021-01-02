@@ -74,8 +74,20 @@
 - a root user is a superuser who is allowed to do anything and everything to a system - typically an administrator
 
 ### filters
-- 
+- (head [-number of lines to print] [print]) - view the first n lines
+- (tail [-number of lines to print] [path]) - view the last n lines
+- (sort [-options] [path]) - organize the data
+- (nl [-options] [path]) nl - number lines
+- (wc [-options] [path]) wc - word count - prints a count of lines, words, and characters
+- (cut [-options][path]) - cut can seperate fields in your files from others
+- (sed<expression>[path]) sed -stream editor - allows us to do a search and replace on our data
+- (uniq[options][path]) - romoves duplicate lines from the data - only works if lines are adjacent to eachother
+- (tac [path]) opposite of 'cat' this will print the lines in reverse order
+- (awk)
+- (diff)
 
+### Grep and Regular Expressions
+- 
 ## Structure
 
 
