@@ -50,6 +50,7 @@
 - (n) - after performing a search witin a manual page, the the next found item
 
 ### file manipulation
+- (mkdir [option] <directory>) - command for creating a directory in the linux widnow
 - 
 ## Structure
 
