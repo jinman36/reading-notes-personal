@@ -28,7 +28,20 @@
 - (up and down keys) these will let you traverse your history in the command line.
 
 ### Basic Navigation
-- (pwd) - tells you what your present working directory is.
+- (pwd) - tells you what your present working directory is. USe this command often, since so many commands rely on you being in the right locations for execution of commands.
+
+- (ls) - list will list out all folders in the directory that you are over
+- (ls -l) - list with a long list - adds blocks, file or directory owner, grouping of file and directory owner, file size, modification time, actual name of file or directory.
+
+### Paths
+- paths under linux are hierarchial structured.  the top is the root directrtoy and is denoted with a single (/)
+- Absolute - specify a location (file or directory) in relation tot he root directory. - these begin with (/)
+- relative - specify a location (file or directory) in relation to where we are currently in the system. -will not begin with (/)
+- (tilde) ~ - is a shortcut for home directory
+- (dot) . - reference to your currentt directory
+- (dot dot) .. - refernce to your parent directory
+
+- (cd) - change directory
 ## Structure
 
 
