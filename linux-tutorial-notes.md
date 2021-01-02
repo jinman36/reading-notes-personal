@@ -51,7 +51,31 @@
 
 ### file manipulation
 - (mkdir [option] <directory>) - command for creating a directory in the linux widnow
+- (rmdir) - remove directory
+- (touch) - create a blank file
+- (cp) - copy
+- (mv) - move
+- (rm) - remove a file
+
+### Utilizing Vi
+- I didn't participate in this,a s much, only a ready through. I'm not sure I want to start adjusting things in this manner until further in the code fellows course.
+
+### Wildcards
+- * - represents zaro or more characters
+- ? - represents a single character
+- [] - represents a range of characters
+
+### Permissions
+- (chmod [permissions] [path]) -  chmod has permission arguments that are made up of 3 components
+    1. Who we arethe permissions for
+    2. are we granting or revoking - (+) or (-)
+    3. which permission are we setting - read (r), write (w) or execute (x)
+- on linux systems there are 2 ppl who may change the permissions of a file or directory. The owner of the file r dir and the root user
+- a root user is a superuser who is allowed to do anything and everything to a system - typically an administrator
+
+### filters
 - 
+
 ## Structure
 
 
