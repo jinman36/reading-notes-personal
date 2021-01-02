@@ -1,10 +1,10 @@
 
 ## Table of Contents
-1. [Outline](#Outline)
-1. [Structure](#Structure)
-1. [General House Rules](#General-House-Rules)
-1. [Problem Solving and Creativity](#Problem-Solving-and-Creativity)
-1. [Obtaining Linux](#Obtaining-Linux)
+1. [Outline](#outline)
+1. [Structure](#structure)
+1. [General House Rules](#general-house-rules)
+1. [Problem Solving and Creativity](#problem-solving-and-creativity)
+1. [Obtaining Linux](#obtaining-linux)
 
 ## vocabulary
 - GUI - Graphic user interface
