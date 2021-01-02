@@ -1,4 +1,5 @@
 ## My personal random notes repository
+[Github reading-notes-personal line](https://jinman36.github.io/reading-notes-personal/)
 
 ### Current repository live feed pages
 1. [Outdoor wilderness website](https://jinman36.github.io/)
