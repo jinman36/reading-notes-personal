@@ -112,6 +112,33 @@
     - STDOUT (1) - Standard output (data printed by the program, defaults to the terminal)
     - STDERR (2) - Standard error (for error messages, also defaults to the terminal)
 
+### Process managment
+ - (top) - view real-time data about processes running on the system
+ - (ps) - get a listing of processes running on the system
+ - (kill) - end the running of a process
+ - jobs - display a list of current jobs running in the background
+ - (fg) move a background process to the foreground
+ - ctrl + z - pause the current foreground process and move it into the background
+
+ ### Bash Script
+ - a bash script is a documnet stating what to say and do. It is something that the computer readed and then executes
+    - this allows us to define a series of actions which the computer will then perform without us having to enter the commands ourselves.
+    - if a particular task is done often, or is repetitive, then a script can be a usefull tool
+- Anything you can run on the command line you may place into a script and they will behave exactly the same. Vice Versa, anything you can put into a script, you may run on the command line and again it will perform exactly the same.
+- The Shebang
+    - the very first line of a script should tell the system which interpreter should be used on theis file.  the first two characters #!(the shebang) tells the system that directly after it will be a path tot eh interpreter used
+
+- (which<program>) this is the comand to find the interpreter if the shebang is missing
+
+- Stuff we learnt
+    - X! - shebang
+    -echo - print message to the screen
+    - which - tells you the path to a particular program
+    - $ - placed before a variable name when we are referring to it's value
+    - ```(backticks) - used to save the output of a program into a variable
+    - date - prints the date
+    - if[] then else fi - perform basic conditional logic
+
 
 ## Structure
 
