@@ -42,6 +42,15 @@
 - (dot dot) .. - refernce to your parent directory
 
 - (cd) - change directory
+
+### Manual Pages
+- (man<command>) - look up the manual page for a particular command
+- (man -k <search term>) - do a keyword search through all the manual pages containing the given search term
+- (/<term>) - within a man page, perform a search for 'term'
+- (n) - after performing a search witin a manual page, the the next found item
+
+### file manipulation
+- 
 ## Structure
 
 
