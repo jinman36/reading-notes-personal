@@ -87,7 +87,32 @@
 - (diff)
 
 ### Grep and Regular Expressions
-- 
+- Re's are regular expressions that are similar to wildcards. They allow us to create a pattern
+- egrep is a program which will search a given set of data and print every line which contains a given pattern. 
+- (egrep [command line options]<pattern>[path])
+
+- Regular expression overview - allow us to identify particular pieces of information
+    - .(dot) - a single character
+    - ? - the preceding character matches 0 or 1 times only
+    - * the preceding character matche 0 or more times 
+    - + - the preceding charactoer matches 1 or more times
+    - {n} - the preceding charactoer matches exactly n times
+    - {n,m} - the preceding matches at least one n times but not more than m times
+    - [agd] - the charactoer is one of those included within the square brackets 
+    - [^agd] - the character is not one of those included inthe square brackets
+    - [c-f] - the dash within the square brackets operates as a range. Inthis case it means wither the letters c, d, e or f
+    - () - allows us to group several characters to behave as one
+    - | (pipe symbol) -logical OR operation
+    - ^ - matcheds the beginning of the line]
+    - $ - matches the end of th line
+
+### Piping and Redirection
+- Every program we run on the command line auto has three data streams connected to it
+    - STDIN (0) - standard input (data fed into the program)
+    - STDOUT (1) - Standard output (data printed by the program, defaults to the terminal)
+    - STDERR (2) - Standard error (for error messages, also defaults to the terminal)
+
+
 ## Structure
 
 
