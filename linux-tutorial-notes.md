@@ -1,4 +1,10 @@
 
+# Day 1 - 31
+### Date 01-01-21
+
+### Link
+ - [Linux Tutorial](https://ryanstutorials.net/linuxtutorial/)
+
 ## Table of Contents
 1. [Outline](#outline)
 1. [Structure](#structure)
