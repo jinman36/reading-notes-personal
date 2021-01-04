@@ -7,12 +7,13 @@
 
 ## Table of Contents
 1. [Git Tutorial: a Comprehensive Guide](#git-tutorial-a-comprehensive-guide)
+1. [Learning Git Branching](#learning-git-branching)
 
 - VCS - Version Control System
 - CVCS - Centralized Version COntrol System
 - DCVS - Distributed Version Control Sytem
 
-## Git Tutorial A Comprehensive Guide
+# Git Tutorial A Comprehensive Guide
 - Git uses a DVCS to conquor the vulnerability that a single server CVS can have. A DVCS creates mirrored repositories whixch allow data to be backed up  easily. These mirrored repositories also allow collabrative work thorugh teams becasue the work is conducted on a local computer, thn merged with repositories on the shared drive.
 
 ### Some parts of this tutorial that I learned and want to maintain
@@ -34,3 +35,6 @@
 
 ### Unstaging a file
 - (git reset HEAD index.html)
+
+# Learning Git Branching
+ - Fun interactive tutorial - I need to spend more time here
