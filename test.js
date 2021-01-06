@@ -112,10 +112,10 @@ class Projectile {
 }
 
 addEventListener('click',(event) => {
-    const player1 = new Player1 (canvas.width / 2, canvas.height / 2, 300, 'blue')
-    const player2 = new Player2 (canvas.width - 750, 200, 100, 'yellow')
-    const player3 = new Player3 (canvas.width - 1025, 200, 100, 'yellow')
-    const player4 = new Player4 (canvas.width / 2, 400, 150, 'green')
+    const player1 = new Player1 (event.clientX, event.clientY, 300, 'blue') // head
+    const player2 = new Player2 (event.clientX - 150, event.clientY - 100, 100, 'white') // right eye
+    const player3 = new Player3 (event.clientX + 150, event.clientY - 100, 100, 'white') // left eye
+    const player4 = new Player4 (event.clientX, event.clientY + 100, 100, 'green') // mouth
     player1.draw()
     player2.draw()
     player3.draw()
