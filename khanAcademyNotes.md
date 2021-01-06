@@ -9,3 +9,8 @@
  - More on variables.
  - Using the concepts I am attempting to make my face in the get well card movable when someone clicks on the screen, rather than show up below in a static position.
  - It worked!!
+
+
+ Animation is next:)
+
+ 

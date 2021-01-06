@@ -33,7 +33,7 @@ function complete() {
     timer = null;
 }
 
-class Player1 {
+class Head {
     constructor(x, y, radius, color) {
         this.x = x
         this.y = y
@@ -48,7 +48,7 @@ class Player1 {
         c.fill()
     }
 }
-class Player2 {
+class EyeR {
     constructor(x, y, radius, color) {
         this.x = x
         this.y = y
@@ -63,7 +63,7 @@ class Player2 {
         c.fill()
     }
 }
-class Player3 {
+class EyeL {
     constructor(x, y, radius, color) {
         this.x = x
         this.y = y
@@ -78,7 +78,7 @@ class Player3 {
         c.fill()
     }
 }
-class Player4 {
+class Mouth {
     constructor(x, y, radius, color) {
         this.x = x
         this.y = y
@@ -110,18 +110,33 @@ class Projectile {
         c.fill()
     }
 }
+var i = 310;
 
-addEventListener('click',(event) => {
-    const player1 = new Player1 (event.clientX, event.clientY, 300, 'blue') // head
-    const player2 = new Player2 (event.clientX - 150, event.clientY - 100, 100, 'white') // right eye
-    const player3 = new Player3 (event.clientX + 150, event.clientY - 100, 100, 'white') // left eye
-    const player4 = new Player4 (event.clientX, event.clientY + 100, 100, 'green') // mouth
-    player1.draw()
-    player2.draw()
-    player3.draw()
-    player4.draw()
-})
+function drawFace() {
+    
+    
+        const head = new Head (i, i, 300, 'blue'); // head
+        const eyeR = new EyeR (i + 150, i - 200, 100, 'white'); // right eye
+        const eyeL = new EyeL (i - 150, i - 200, 100, 'white'); // left eye
+        const mouth = new Mouth (i + 10, i + 50, 200, 'green'); // mouth
+        head.draw();
+        eyeR.draw();
+        eyeL.draw();
+        mouth.draw();
+        
+        i = i + 15
+}
 
-//const projectile = new Projectile (event.clientX, event.clientY, 5, 'red', null)
-//projectile.draw
+drawFace()
+
+//addEventListener('click',(event) => {
+//    const player1 = new Player1 (event.clientX, event.clientY, 300, 'blue') // head
+//    const player2 = new Player2 (event.clientX - 150, event.clientY - 100, 100, 'white') // right eye
+//    const player3 = new Player3 (event.clientX + 150, event.clientY - 100, 100, 'white') // left eye
+//    const player4 = new Player4 (event.clientX, event.clientY + 100, 100, 'green') // mouth
+//    player1.draw()
+//    player2.draw()
+//    player3.draw()
+//    player4.draw()
+//})
 
