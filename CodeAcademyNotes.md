@@ -38,3 +38,5 @@ print(quilt_width*quilt_length)
 quilt_length = 8
 
 print("I will need", quilt_width * quilt_length ,"squares for my quilt") -->
+
+- Exponents - 
