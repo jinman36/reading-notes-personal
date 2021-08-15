@@ -132,5 +132,9 @@ if not (credits >= 120) and not (gpa >= 2.0):
 
   - Else Statements - allows us to describe what we want our code to do when certain conditions are not met
       -always appear in conjunction with if statements
+  - Else if statements - elif statements check another condition after the previous if statements conditions arent met
+      - this allows for continuous checks after the initial if statement
+      - When it finds a true statement it executes the code within that section - no further statements will be evaluated - if no true statements exist it executes the else statement
+  
 
 
