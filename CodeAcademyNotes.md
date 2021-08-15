@@ -81,4 +81,56 @@ print(first_initial) -->
 - task only - string concatenation and += operator work
 
 ## Control Flow
+- Python executes code from the top down, until there is nothing left to run
+    - conditional statements - these are controlled gateways, that give the computer conditions, that tell the computer when it should execute certain functions
+
+- Boolean Expressions - True false statements
+- Relational Operators: Equal (==) and Not Equals (!=)
+- Boolean Variables - True and false are their own special type of character called a 'bool'
+  - any value that is assigned with T or F is called a boolean variable
+- If statements -
+
+<!-- # Enter a user name here, make sure to make it a string
+user_name = 'Jeff'
+
+if user_name == 'dave':
+  print ("Get off my computer Dave!")
+
+if user_name == 'angela_catlady_87':
+  print ("I know it is you, Dave! Go away!") -->
+
+
+- Other Relational Operators
+    > greater than
+    >= greater than or equal to
+    < less than
+    <= less than or equal to
+
+- Boolean Operators:
+  - and - combines 2 boolean expressions and evaluates if both components are true,but false otherwise
+        - Oranges are a fruit *and* carrots are a vegetable. = true
+  - or - combines two expressions into a larger expression that is true if either component is true
+        - Oranges are a fruit or apples are a vegetable. = true
+        - True or (3 + 4 == 7)    # True
+          (1 - 1 == 0) or False   # True
+          (2 < 0) or True         # True
+          (3 == 8) or (3 > 4)     # False
+  - not - When applied to any boolean expression it reverses the boolean value
+        - not True == False
+          not False == True
+<!-- credits = 120
+gpa = 1.8
+
+if not credits >= 120:
+  print("You do not have enough credits to graduate.")
+
+if not gpa >= 2.0:
+   print("Your GPA is not high enough to graduate.")
+
+if not (credits >= 120) and not (gpa >= 2.0):
+   print("You do not meet either requirement to graduate!") -->
+
+  - Else Statements - allows us to describe what we want our code to do when certain conditions are not met
+      -always appear in conjunction with if statements
+
 
