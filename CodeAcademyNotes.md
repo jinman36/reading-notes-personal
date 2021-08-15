@@ -47,4 +47,14 @@ print("I will need", quilt_width * quilt_length ,"squares for my quilt") -->
   - useful when we want to run a command every nth-time the code is run
   - This will return 0 if there is no remainder (4 % 2)
 
-- String Concatenation
+- String Concatenation - Python supports concatenation of string together using the + operator
+  - To concatenate a string with a number - str() function
+  - to print the value as numeric use a comma to pass in different arguments, rather than convert the number to a string
+
+- Plus Equals - The plus equals operator += provides a convenient way to add a value to an existing variable and assign the new value back to th same variable.
+  - if the variable and the value are strings the operator performs concatenation instead of addition
+  - The operation is performed in-place, meaning that any other variable which points to the variable being updated will also be updated
+
+- Multi-line Strings - using 3 quotes tells the program that the string doesnt end until the next triple quotes (''') or (""")
+
+
