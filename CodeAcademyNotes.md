@@ -39,4 +39,12 @@ quilt_length = 8
 
 print("I will need", quilt_width * quilt_length ,"squares for my quilt") -->
 
-- Exponents - 
+- Exponents - to do math with exponents python will utilize the ** operator
+<!-- print(6 ** 2) expected result = 36-->
+
+- Modulo - companion to the division operator indicated with %, which will return the remainder of a division calc
+<!-- print(29 % 5) expected result = 4 -->
+  - useful when we want to run a command every nth-time the code is run
+  - This will return 0 if there is no remainder (4 % 2)
+
+- String Concatenation
