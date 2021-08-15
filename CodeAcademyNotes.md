@@ -6,6 +6,9 @@
 
 ## Syllabus Outline
 1. [CS101: Introduction to Programming](#CS101:_Introduction_to_Programming)
+  - [Python: Hello World](#hello_world)
+  - [Python: Control Flow](#control_flow)
+  - [Lovely Loveseats](#lovely_loveseats)
 1. [CS102: Data Structures and Algorithms](#CS102:_Data_Structures_and_Algorithms)
 1. [CS103: Databases](#CS103:_Databases)
 1. [CS104: Computer Architecture](#CS104:_Computer_Architecture)
@@ -16,6 +19,8 @@
 
 
 # CS101: Introduction to Programming
+
+## Hello World
 - Comments - Python interprets anything after a # as a comment
 - Print() function is used to tell a computer ot talk
 - Strings - Blocks of text - can use either single or double quotes "shooters choice"
@@ -57,4 +62,23 @@ print("I will need", quilt_width * quilt_length ,"squares for my quilt") -->
 
 - Multi-line Strings - using 3 quotes tells the program that the string doesnt end until the next triple quotes (''') or (""")
 
+### Block Letters
+- Block letters are created using ASCII art - example below is my initials
+<!-- first_initial = '''
+JJJJJ  IIIII
+  J      I
+  J      I
+  J      I
+  J      I
+J J      I
+J J      I
+ JJ    IIIII
+'''
+
+print(first_initial) -->
+
+### Lovely Loveseats
+- task only - string concatenation and += operator work
+
+## Control Flow
 
