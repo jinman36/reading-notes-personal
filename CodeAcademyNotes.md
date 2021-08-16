@@ -184,3 +184,18 @@ print("Magic 8-ball's answer:", answer) -->
 
 
 ### Sal's Shipping
+ - ground rate calc code
+<!-- weight = 8.4
+ground_flat_charge = 20.00
+
+# Ground shipping
+if weight <=2:
+  cost_ground = weight*1.50
+elif weight <=6:
+  cost_ground = weight*3.00
+elif weight <=10:
+  cost_ground = weight*4.00
+else:
+  cost_ground = weight*4.75
+
+print(cost + ground_flat_charge) -->
