@@ -187,6 +187,7 @@ print("Magic 8-ball's answer:", answer) -->
  - ground rate calc code
 <!-- weight = 8.4
 ground_flat_charge = 20.00
+premium_ground_charge = 125
 
 # Ground shipping
 if weight <=2:
@@ -198,4 +199,6 @@ elif weight <=10:
 else:
   cost_ground = weight*4.75
 
-print(cost + ground_flat_charge) -->
+print(cost_ground + ground_flat_charge)
+print('Ground Shipping Premium: $', premium_ground_charge) -->
+
