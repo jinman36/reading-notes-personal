@@ -8,7 +8,7 @@
 1. [CS101: Introduction to Programming](#CS101:_Introduction_to_Programming)
   - [Python: Hello World](#hello_world)
   - [Python: Control Flow](#control_flow)
-  - [Lovely Loveseats](#lovely_loveseats)
+  - [Navigating the File System](#Navigating_the_File_System)
 1. [CS102: Data Structures and Algorithms](#CS102:_Data_Structures_and_Algorithms)
 1. [CS103: Databases](#CS103:_Databases)
 1. [CS104: Computer Architecture](#CS104:_Computer_Architecture)
