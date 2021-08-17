@@ -216,3 +216,25 @@ print('Ground Shipping General: $', cost_ground + ground_flat_charge)
 print('Ground Shipping Premium: $', premium_ground_charge)
 print('Drone Shipping Cost: $', cost_drone) -->
 
+### Errors in Python
+- Syntax errors - means there is something wrong with the way your program is written
+  - punctuation
+  - command where its not expected
+  - missing or mismatched parenthesis
+
+  - common Syntax errors
+    - misspelled a python word
+    - missing colon
+    - missing closing parenthesis, square bracket, or curly brace
+- Name Errors - when python detects a variable that is unknown
+  - common Name errors
+    - missing a variable name
+    - not defining a variable
+    - misspelling variable names
+- Type Errors - reported by the Python interpreter when an operation is applied to a variable of an inappropriate type
+  - piggy_bank = '2' + 2.25 # type error because one is a string and the other a number
+  
+  - Common Type errors
+    - Accidentally adding or subtracting a string value
+    - Call a function on something of the incorrect type
+- Logic errors - Errors found by the programmer when the program isn’t doing what it is intending to do.
