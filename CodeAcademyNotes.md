@@ -184,10 +184,11 @@ print("Magic 8-ball's answer:", answer) -->
 
 
 ### Sal's Shipping
- - ground rate calc code
-<!-- weight = 8.4
+ - Ground, Premium, and Drone shipping rates applied and MVP achieved
+<!-- weight = 41.5
+drone_shipping_weight = 41.5
 ground_flat_charge = 20.00
-premium_ground_charge = 125
+premium_ground_charge = 125.00
 
 # Ground shipping
 if weight <=2:
@@ -199,6 +200,19 @@ elif weight <=10:
 else:
   cost_ground = weight*4.75
 
-print(cost_ground + ground_flat_charge)
-print('Ground Shipping Premium: $', premium_ground_charge) -->
+# Drone Shipping
+if drone_shipping_weight <=2:
+  cost_drone = drone_shipping_weight*4.50
+elif drone_shipping_weight <=6:
+  cost_drone = drone_shipping_weight*9.00
+elif drone_shipping_weight <=10:
+  cost_drone = drone_shipping_weight*12.00
+else:
+  cost_drone = drone_shipping_weight*14.25
+
+
+
+print('Ground Shipping General: $', cost_ground + ground_flat_charge)
+print('Ground Shipping Premium: $', premium_ground_charge)
+print('Drone Shipping Cost: $', cost_drone) -->
 
