@@ -238,3 +238,11 @@ print('Drone Shipping Cost: $', cost_drone) -->
     - Accidentally adding or subtracting a string value
     - Call a function on something of the incorrect type
 - Logic errors - Errors found by the programmer when the program isn’t doing what it is intending to do.
+
+## Navigating the File System
+- BASH - Born again Shell
+- The command line is a text interface for yyour computer - its a program that takes commands and passes them to the computers operating system to run.
+
+- Filesystem - organizes a computers files and directories into a tree structure
+  - the first directory is th eroot directory
+  - each parent dir can contain more child dir and files
