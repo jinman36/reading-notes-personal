@@ -9,6 +9,7 @@
   - [Python: Hello World](#hello_world)
   - [Python: Control Flow](#control_flow)
   - [Navigating the File System](#Navigating_the_File_System)
+  - [Python: Lists](#lists)
 1. [CS102: Data Structures and Algorithms](#CS102:_Data_Structures_and_Algorithms)
 1. [CS103: Databases](#CS103:_Databases)
 1. [CS104: Computer Architecture](#CS104:_Computer_Architecture)
@@ -244,5 +245,20 @@ print('Drone Shipping Cost: $', cost_drone) -->
 - The command line is a text interface for yyour computer - its a program that takes commands and passes them to the computers operating system to run.
 
 - Filesystem - organizes a computers files and directories into a tree structure
-  - the first directory is th eroot directory
+  - the first directory is the root directory
   - each parent dir can contain more child dir and files
+
+@ bicycle world exercise
+ - series of commands using th e command line
+    - pwd
+    - cd
+    - mkdir
+    - cd .. and cd ../..
+    - touch
+
+## Python: List
+- a list is a built in data structure that allows us to work with a collection of data in sequential order
+<!-- heights = [61, 70, 67, 64, 65] -->
+- list can hold any data type in python
+<!-- sam_height_and_testscore = ['Sam', 67, 85.5, True]  -->
+
