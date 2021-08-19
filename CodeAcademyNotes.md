@@ -262,3 +262,7 @@ print('Drone Shipping Cost: $', cost_drone) -->
 - list can hold any data type in python
 <!-- sam_height_and_testscore = ['Sam', 67, 85.5, True]  -->
 
+### Growing a list: Plus (+)
+  - using a + will allow you to concatenate a list by either adding items to the end of the list or by combining lists through thier variables
+
+### Accessing list Elements
