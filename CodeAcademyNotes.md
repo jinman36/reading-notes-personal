@@ -263,6 +263,26 @@ print('Drone Shipping Cost: $', cost_drone) -->
 <!-- sam_height_and_testscore = ['Sam', 67, 85.5, True]  -->
 
 ### Growing a list: Plus (+)
-  - using a + will allow you to concatenate a list by either adding items to the end of the list or by combining lists through thier variables
+  - using a + will allow you to concatenate a list by either adding items to the end of the list or by combining lists through their variables
 
 ### Accessing list Elements
+ - Python lists are zero-indexed
+ - using the print(variable_name[]) function it has to be an int, using a float will cause an error
+ - this causes issues if you attempt a divide function inside a  function - you must force it to use an int by doing the following
+    <!-- - print(variable_name[int(4/2)])  - which will print out the int (2) -->
+
+### Accessing list elements: Negative Index
+  - We can use the -1 to select the last item of a list, even when we do not know how many elements are in a list
+
+### Modifying list elements
+  - to modify an element in a list use identify the list element and change the value
+<!-- garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+
+garden_waitlist[1] = "Calla"
+garden_waitlist[-1] = "Alex"
+
+
+print(garden_waitlist) -->
+
+### Shrinking a list: Remove
+- We can remove elements ina list using the .remove() python method
