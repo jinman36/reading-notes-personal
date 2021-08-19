@@ -286,3 +286,51 @@ print(garden_waitlist) -->
 
 ### Shrinking a list: Remove
 - We can remove elements ina list using the .remove() python method
+  - Cannot remove by using a (-) or an object that isn;t in the list
+<!-- new_store_order_list = ["Orange", "Apple", "Mango", "Broccoli", "Mango"]
+
+new_store_order_list.remove("Mango") -->
+
+### Two-Dimensional (2D) Lists
+  - Lists that contain other lists are refered to as 2-dimensional lists
+  <!-- ages = [["Aaron", 15], ["Dhruti", 16]]-->
+
+  - Accessing 2D lists
+  - Each sub group is also zero indexed with a zero index nested inside of that list
+    - To pull the information you need to make a variable for each index point
+    <!-- dhurtis_score = class_name_test[1][1] --> printing dhurtis_score will result in '16'
+  - This can also use negative indices
+
+  - Modifying 2d lists
+  - To change a value in a two dimensional list, reassign the value using the specific index
+  <!-- ages[0][1] = 16 --> this will change aarons age to 16 in the above example
+
+- positive and negative indices work with these modifications
+<!-- incoming_class = [["Kenny",	"American",	9], ["Tanya",	"Russian",	9], ["Madison",	"Indian",	7]]
+
+incoming_class[2][2] = 8
+incoming_class[-3][-3] = "Ken" -->
+
+- Review of example code
+<!-- first_names = ["Ainsley", "Ben", "Chani", "Depak"]
+preferred_size = ["Small", "Large", "Medium"]
+customer_data = [["Ainsley",	"Small",	True], ["Ben",	"Large",	False], ["Chani",	"Medium",	True], ["Depak",	"Medium",	False]]
+new_customers = [["Amit", "Large", True], ["Karim", "X-Large", False]]
+
+preferred_size.append("Medium")
+customer_data[-2][-1] = False
+customer_data[1].remove(False)
+customer_data_final = customer_data + new_customers
+
+print(first_names)
+print(preferred_size)
+print(customer_data)
+print(customer_data_final) -->
+
+
+
+
+
+
+
+
