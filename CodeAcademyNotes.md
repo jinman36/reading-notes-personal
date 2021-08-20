@@ -395,6 +395,20 @@ output
 ['pajamas', 'books']
 ['shirt', 'shirt', 'pants'] -->
 
+- Counting in a list
+<!-- jake_votes = votes.count('Jake') -->]
+
+- Sorting List 1
+- The sort command does not produce any value so assigning it to a variable will produce an output = "none"
+  - variable_name.sort() - will sort in alphabetical order
+  - variable_name.sort(reverse=True) - will sort in reverse alphabetical
+
+Sorting Lists 2
+- a 2nd way of sorting lists is to use the function sorted()
+  - it will become before a list, instead of after as all built in functions do
+  - it generates a new list rather than modifying the one that already exists
+
+- sorted can be used and assigned to a variable - the original list stays in tact
 
 
 
