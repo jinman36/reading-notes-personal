@@ -411,4 +411,42 @@ Sorting Lists 2
 - sorted can be used and assigned to a variable - the original list stays in tact
 
 
+### Lens Pizza Review Project
+- interesting exercize on all the list elements
+
+## Learn Python: Tuples video
+- What are tuples
+- creating tuples
+- tuples vs lists
+
+- Tuple is a data structure inside Python - very similar to a list only it is immutable (cannot be changed after creation)
+- Creating a one element tuple - must have a trailing comma behind a one element tuple
+
+- Allot of times people store data that is not similar into a tuple - descriptions of info, or things like that
+
+- a list will be created for data that is similar, and that can be changed (order, etc...)
+
+
+## COmbining lists using the Zip function
+- Zip() - able to incorporate two lists into the same data string
+
+- 2 lists
+<!-- names = ["Jenny", "Alexus", "Sam", "Grace"]
+heights = [61, 70, 67, 65] -->
+
+- zip together
+<!-- names_and_heights = zip(names, heights) -->
+
+<!-- print(names_and_heights) - 
+output - <zip object at 0x7f1631e86b48> -->
+
+- need to assign a variable
+<!-- converted_list = list(names_and_heights)
+print(converted_list) -->
+
+- Output after listed
+<!-- [('Jenny', 61), ('Alexus', 70), ('Sam', 67), ('Grace', 65)] -->
+
+
+
 
