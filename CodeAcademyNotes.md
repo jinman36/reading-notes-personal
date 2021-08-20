@@ -327,9 +327,73 @@ print(preferred_size)
 print(customer_data)
 print(customer_data_final) -->
 
+### Working with lists in Python
+- .count() - list method to count the number of occurences of an element in a list
+- .insert() - A list method to insert an element into a specific index of a list
+- .pop() - A list method to remove an element from a specific index or from the end of a list
+- range() - A built-in Python function to create a sequence of integers
+- len() - a built in Python function to get the length of a list
+- .sort() / sorted() - a method and a built in function to sort a list
+
+### Adding by text: insert
+- .insert() - takes in two inputs:
+  - the index you want to inser into
+  - the element you want to insert at the specified index
+
+  <!-- front_display_list.insert(0, "Pineapple") -->
+
+- Removing by Index: Pop
+- .pop() method takes an optional single input
+  - the index for the element you want to come out
+
+- Consecutive Lists: Range
+- range() - can take a single input and generate numbers starting at 0 and ending at the number before the input
+  - if printed 'as is' it will print the range - must use the list() built in function to produce a list of integers
+  <!-- print(list(range_variable)) -->
+
+<!-- range_five_three = range(5, 15, 3)
+range_diff_five = range(0, 40, 5)
+
+print(list(range_five_three))
+print(list(range_diff_five)) -->
+
+- Length - a built in function to get the length of a list
+<!-- my_list = [1, 2, 3, 4, 5]
+ 
+print(len(my_list)) -->
+
+- Slicing Lists 1
+<!-- suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:2]
+middle = suitcase[2:4]
+
+# Your code below: 
 
 
+print(beginning)
+print(middle)
 
+output 
+['shirt', 'shirt']
+['pants', 'pants'] -->
+
+- Slicing lists 2
+<!-- Use the following techniques to slice parts off of a list in different ways
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Your code below: 
+
+last_two_elements = suitcase[-2:]
+slice_off_last_three = suitcase[:-3]
+
+print(last_two_elements)
+print(slice_off_last_three)
+
+output
+['pajamas', 'books']
+['shirt', 'shirt', 'pants'] -->
 
 
 
