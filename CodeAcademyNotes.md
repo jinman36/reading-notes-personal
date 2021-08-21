@@ -479,10 +479,17 @@ for temp in range(5):
   print(promise) -->
 
 - While Loops - Introduction
-  - "while" loops - indefinate iteration - a while loop performs a set of instructions as long as a given condition is true
+  - "while" loops - indefinite iteration - a while loop performs a set of instructions as long as a given condition is true
+      - Can also be written as one line - similar to for loops
 
   structure is as follows:
   <!-- while <conditional statement>:
   <action> -->
+- example while loop
+<!-- countdown = 10
 
+while countdown >= 0:
+  print("Number: " +str(countdown))
+  countdown -= 1
+print("We have liftoff!") -->
 
