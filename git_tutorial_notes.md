@@ -14,13 +14,13 @@
 - DCVS - Distributed Version Control Sytem
 
 # Git Tutorial A Comprehensive Guide
-- Git uses a DVCS to conquor the vulnerability that a single server CVS can have. A DVCS creates mirrored repositories whixch allow data to be backed up  easily. These mirrored repositories also allow collabrative work thorugh teams becasue the work is conducted on a local computer, thn merged with repositories on the shared drive.
+- Git uses a DVCS to conquor the vulnerability that a single server CVS can have. A DVCS creates mirrored repositories which allow data to be backed up  easily. These mirrored repositories also allow collaborative work thorough teams because the work is conducted on a local computer, thn merged with repositories on the shared drive.
 
 ### Some parts of this tutorial that I learned and want to maintain
-- (git stash) - allows you to hid all chages since the last commit for a clean workingdirectory
+- (git stash) - allows you to hid all changes since the last commit for a clean working directory
 - (git stash apply) - retrieves hidden changes
 
-### Adding a new remote repositoy through teh command line
+### Adding a new remote repository through teh command line
 - git remote
     - origin
 - git remote add js https://github.com/janesmith/project1
