@@ -454,12 +454,35 @@ The basic makeup of a loop
 2. A repetition - we are performing the process
 3. An end condition - we ae complete and ready to stop
 
-Python uses 2 tyes of iteration
+Python uses 2 types of iteration
 1. indefinite iteration - where the number of times the loop is executed depends on how many times a condition is met
 2. Definite iteration - where the number f times the loop will be executed is defined in advance (usually based on collection size)
 
 ### Break Key word
 - break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
 
+### For loop - Introduction
+- For loop - a type of definite iteration We will know before we start how many times we need the loop to go through the cycle because it is meant to work with a predefined length - like a list or similar collection of elements
+
+<!-- for <temporary variable> in <collection>:
+  <action> -->
+
+- 'for loop' in Python can be written on one line - but this may impact readability later and make a harder situation for debugging
+
+<!-- for <temporary variable> in <collection>: <action> -->
+
+- 'For Loops' Using range - to create arbitrary collections of any length, we can pair our for loops with a built in function 'range()'
+
+<!-- promise = "I will finish the python loops module!"
+
+for temp in range(5):
+  print(promise) -->
+
+- While Loops - Introduction
+  - "while" loops - indefinate iteration - a while loop performs a set of instructions as long as a given condition is true
+
+  structure is as follows:
+  <!-- while <conditional statement>:
+  <action> -->
 
 
