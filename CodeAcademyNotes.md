@@ -449,5 +449,17 @@ print(converted_list) -->
 
 ## Loops
   - What are loops?
+The basic makeup of a loop
+1. An initiation - were ready to start the process
+2. A repetition - we are performing the process
+3. An end condition - we ae complete and ready to stop
+
+Python uses 2 tyes of iteration
+1. indefinite iteration - where the number of times the loop is executed depends on how many times a condition is met
+2. Definite iteration - where the number f times the loop will be executed is defined in advance (usually based on collection size)
+
+### Break Key word
+- break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
+
 
 
