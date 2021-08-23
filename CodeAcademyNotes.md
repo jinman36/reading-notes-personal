@@ -458,8 +458,6 @@ Python uses 2 types of iteration
 1. indefinite iteration - where the number of times the loop is executed depends on how many times a condition is met
 2. Definite iteration - where the number f times the loop will be executed is defined in advance (usually based on collection size)
 
-### Break Key word
-- break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
 
 ### For loop - Introduction
 - For loop - a type of definite iteration We will know before we start how many times we need the loop to go through the cycle because it is meant to work with a predefined length - like a list or similar collection of elements
@@ -502,5 +500,8 @@ for student in students_period_A:
  
 print(students_period_B) -->
 
+
+### Break Key word
+- break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
 
 
