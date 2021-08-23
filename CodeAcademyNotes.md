@@ -503,3 +503,17 @@ print(students_period_B) -->
 
 ### Break Key word
 - break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
+
+### Loop Control - Continue
+- Breaking the cycle without breaking the whole loop
+  - wit a normal loop the cycle will break once the loop finds a true statement - if there is more than onwe true statement in a list the loop must continue the example below is a scenario of checking Ids at a bar and looking for any number over 21]
+  - notes: continue needs to be indented inside the if loop to print the right output
+
+<!-- ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+  if age < 21:
+    continue
+  print(age) -->
+
+  
