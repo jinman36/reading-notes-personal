@@ -516,4 +516,7 @@ for age in ages:
     continue
   print(age) -->
 
-  
+  ### Nested Loops
+  - Loops can be nested in Python
+    - A good use for nested loops is for dissecting 2 dim lists
+
