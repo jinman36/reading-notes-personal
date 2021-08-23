@@ -516,7 +516,20 @@ for age in ages:
     continue
   print(age) -->
 
-  ### Nested Loops
-  - Loops can be nested in Python
+### Nested Loops
+  - Loops can be nested in Python - Nested loops can be used to access items of lists which are inside of other lists - the items selected from the outer loop can be used as the list for the inner loop to iterate over.
     - A good use for nested loops is for dissecting 2 dim lists
+
+-Code example is breaking a group of sales down by a location - then adds the numbers together to give a total at all locations
+ 
+<!-- sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0
+
+for location in sales_data:
+  print(location)
+  for scoops in location:
+    scoops_sold += scoops
+
+print(scoops_sold) -->
 
