@@ -503,5 +503,3 @@ print(students_period_B) -->
 
 ### Break Key word
 - break - IN a loop the 'break' keyword escapes the loop, regardless of the iteration number
-
-
