@@ -533,3 +533,9 @@ for location in sales_data:
 
 print(scoops_sold) -->
 
+## List Comprehensions: Introduction
+  - List comprehensions provide a concise way for creatings lists - it consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses:
+  -- [EXPRESSION for ITEM in LIST <if CONDITIONAL>] --
+  - The expression can be anything - but a list comprehension always returns a list
+
+  
