@@ -537,5 +537,30 @@ print(scoops_sold) -->
   - List comprehensions provide a concise way for creatings lists - it consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses:
   -- [EXPRESSION for ITEM in LIST <if CONDITIONAL>] --
   - The expression can be anything - but a list comprehension always returns a list
+- code example
+<!-- grades = [90, 88, 62, 76, 74, 89, 48, 57]
 
-  
+scaled_grades = [curve + 10 for curve in grades]
+
+print(scaled_grades) -->
+
+- List comprehensions can also include conditional statements
+<!-- numbers = [2, -1, 79, 33, -45]
+negative_doubled = [num * 2 for num in numbers if num < 0]
+print(negative_doubled) -->
+
+### review code
+
+<!-- make a list from 0-9 using range -->
+<!-- single_digits = range(10)
+# print(list(single_digits)) -->
+<!-- fill an empty list with the square value -->
+<!-- squares = []
+
+for num in single_digits:
+  squares.append(num**2) 
+print(squares) -->
+
+<!-- use list comprehension to create a list in the third power -->
+<!-- cubes = [third_power**3 for third_power in single_digits]
+print(cubes) -->
