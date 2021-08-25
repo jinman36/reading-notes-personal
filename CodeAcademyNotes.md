@@ -10,6 +10,8 @@
   - [Python: Control Flow](#control_flow)
   - [Navigating the File System](#Navigating_the_File_System)
   - [Python: Lists](#lists)
+  - [Python: Loops](#loops)
+  - [Python: Functions](#functions)
 1. [CS102: Data Structures and Algorithms](#CS102:_Data_Structures_and_Algorithms)
 1. [CS103: Databases](#CS103:_Databases)
 1. [CS104: Computer Architecture](#CS104:_Computer_Architecture)
@@ -565,4 +567,23 @@ print(squares) -->
 <!-- cubes = [third_power**3 for third_power in single_digits]
 print(cubes) -->
 
+# Functions
+  - Python functions are able to return multiple values using one 'return' statement. All values that shoulf be returned are listed after the return keyword and are separated by commas
 
+- Key components of functions
+  - the def keywoek indicates the bef\ginning of a function - also known as a function header - the function header is followed by a name in snake_case format that describes the task the fuction performs. its best practive to give your function a descriptive yet concise name
+  - following the function name is a pair of parenthesis ( ) that can hold input values known as parameters (more parameters later in the lesson) in this example function, we have no parameters
+  - A colon : to mark the end of the header
+  - lastly, we have one or more valid python statements that make up the function body (where we have our python comment)
+-example of a function
+
+<!-- def function_name():
+  # functions tasks go here -->
+
+- notice that the functions tasks go here is indented to show they are part of the function
+
+- In python the amount of whitespace tells the computer what is part of a function and what is not part of that function
+
+- The execution flow is the order a program executes code - python starts from the top and goes down - line by line
+
+##
