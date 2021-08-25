@@ -586,4 +586,8 @@ print(cubes) -->
 
 - The execution flow is the order a program executes code - python starts from the top and goes down - line by line
 
-##
+## Parameters and arguments
+- Function parameters allow a function to accept data as an input value.
+
+- A parameter is the name defined in the parenthesis of the function and can be used in the function body
+- the argument is the data that is passed in when we call the function and assigned to the parameter name
