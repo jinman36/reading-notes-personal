@@ -568,10 +568,10 @@ print(squares) -->
 print(cubes) -->
 
 # Functions
-  - Python functions are able to return multiple values using one 'return' statement. All values that shoulf be returned are listed after the return keyword and are separated by commas
+  - Python functions are able to return multiple values using one 'return' statement. All values that should be returned are listed after the return keyword and are separated by commas
 
 - Key components of functions
-  - the def keywoek indicates the bef\ginning of a function - also known as a function header - the function header is followed by a name in snake_case format that describes the task the fuction performs. its best practive to give your function a descriptive yet concise name
+  - the def keyword indicates the bef\ginning of a function - also known as a function header - the function header is followed by a name in snake_case format that describes the task the function performs. its best practice to give your function a descriptive yet concise name
   - following the function name is a pair of parenthesis ( ) that can hold input values known as parameters (more parameters later in the lesson) in this example function, we have no parameters
   - A colon : to mark the end of the header
   - lastly, we have one or more valid python statements that make up the function body (where we have our python comment)
