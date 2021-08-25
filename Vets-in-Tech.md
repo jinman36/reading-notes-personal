@@ -11,3 +11,5 @@
   - Server to create web applications
   - Used alongside software to create workflows
   - Connect to database systems, it can also read and modify files
+
+  - Lots of slack and attendance issues
