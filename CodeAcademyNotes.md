@@ -591,3 +591,13 @@ print(cubes) -->
 
 - A parameter is the name defined in the parenthesis of the function and can be used in the function body
 - the argument is the data that is passed in when we call the function and assigned to the parameter name
+
+### Multiple parameters
+- Identifying the parameters in the function line, and then call them by assigning the values in the arguments
+
+<!-- def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate, trip_time):
+  car_rental_total = car_rental_rate * trip_time
+  hotel_total = hotel_rate * trip_time - 10
+  print(car_rental_total + hotel_total + plane_ticket_price)
+
+calculate_expenses(200, 100, 100, 5) -->
