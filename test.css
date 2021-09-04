@@ -25,3 +25,7 @@
         transform: translateY(0px);
         color: blue
     }
+
+    .fancy {
+        color: aqua;
+    }
