@@ -1,3 +1,3 @@
-'use strict'
+var movie = { title: "The Matrix" };
+console.log(typeof(typeof(movie)))
 
-console.log('hello world')
