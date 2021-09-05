@@ -22,4 +22,18 @@
 
   let shortCircuitEval = falseyVar || 'default value'
 
+- Ternary Operators
+- short hand way to write an if..else statement in js
+
+- Traditional if--else statement
+<!-- let isNightTime = true;
+ 
+if (isNightTime) {
+  console.log('Turn on the lights!');
+} else {
+  console.log('Turn off the lights!');
+} -->
+
+- ternary operator with the same functionality
+<!-- isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!'); -->
 
