@@ -106,7 +106,7 @@ const rectangleArea = (width, height) => {
 - Concise Body Arrow Functions
   - JS also provides several ways to refactor arrow function syntax.
     - Concise body is the most condensed
-- functions that take only a single [arameter do not need that parameter in paranthesis - if a function takes zero or multiple parameters - () are required
+- functions that take only a single parameter do not need that parameter in parenthesis - if a function takes zero or multiple parameters - () are required
   - zero parameters
     - const functionName = () => {};
   - One Parameter
