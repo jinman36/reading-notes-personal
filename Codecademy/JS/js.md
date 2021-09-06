@@ -113,3 +113,11 @@ const rectangleArea = (width, height) => {
     - const functionName = paramOne => {};
   - Two or more parameters
     - const functionName = (paramOne, paramTwo, paramEtc) => {};
+- Function body composed of a single line blocl does not need curly braces. Without the  curly braces, whatever that line evaluates will be automatically returned. the contents of the block should immediately follow th earrow -> and the return keyword can be removed. this is referred to as implicit return
+  - Single line block -
+    - const sumNumber = number => number + number;
+  - Multi line block
+    - const sumNumbers = number => {
+      const sum = number + number;
+      return sum;
+    };
