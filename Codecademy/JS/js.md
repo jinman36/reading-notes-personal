@@ -121,3 +121,18 @@ const rectangleArea = (width, height) => {
       const sum = number + number;
       return sum;
     };
+
+### Scope Pollution
+
+- Global variables go to the global namespace - allows variables to be accessible from anywhere in the program. These variables remain there until the program finishes which means our global namespace can fill up really quickly.
+- space pollution is when we have too many global variables that exist in the global namespace, or when we reuse variables across different scopes.
+-this makes it difficult to keep track of our different variables to keep track of our different variables and sets up for potential accidents.
+
+- **Scope** is the idea in programming that some variables are accessible/inaccessible from other parts of the program.
+- **Blocks** are statements that exist within curly braces {}.
+- **Global** scope refers to the context within which variables are accessible to every part of the program.
+- **Global variables** are variables that exist within global scope.
+- **Block scope** refers to the context within which variables that are accessible only within the block they are defined.
+- **Local variables** are variables that exist within block scope.
+- **Global namespace** is the space in our code that contains globally scoped information.
+- **Scope pollution** is when too many variables exist in a namespace or variable names are reused.
