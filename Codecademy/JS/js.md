@@ -136,3 +136,6 @@ const rectangleArea = (width, height) => {
 - **Local variables** are variables that exist within block scope.
 - **Global namespace** is the space in our code that contains globally scoped information.
 - **Scope pollution** is when too many variables exist in a namespace or variable names are reused.
+
+### Arrays
+1. [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);
