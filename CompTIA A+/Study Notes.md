@@ -1,6 +1,10 @@
 # CompTIA A+ Study Notes
 
-### Date 101-2021
+### Start Date 10-1-2021
+
+### End Date
+
+### Hours countdown: 1.1 / 34.11
 
 ### Link
 
@@ -49,7 +53,7 @@
   - Actively listening
   - Clarify customer statements
   - maintain positive attitude/ project confidence
-  - Use proper language and avoid jargon,a cronyms, and slang
+  - Use proper language and avoid jargon, acronyms, and slang
   - set and meet expectations/timeline and communicate status with customer
 - **Don'ts**
   - Be culturally sensitive
@@ -58,10 +62,10 @@
   - Avoid being judgemental
   - Avoid dismissing customer problems
   - Deal appropriately with customers confidential and private materials
-  - Dont argue with customer or be defensive
+  - Don't argue with customer or be defensive
   - Follow up with customer to verify satisfaction
   - Provide proper documentation to customer
-  - Offer different repaier/replacemnt options
+  - Offer different repair/replacement options
 
   - Physical Safety
     - Disconnect power
@@ -82,7 +86,7 @@
   - Phone and Phillips screwdriver
   - hemostat
   - tweezers
-  - IC Insterter
+  - IC Inserter
   - specialized tool - iFixit for mobile
   - nut drivers
   - Spudgers - for prying cases open
@@ -93,15 +97,79 @@
 
 - Objective 5.1 - TroubleShooting Theory
 
-  - Always consider corporate policies, rocedures, impacts before implementing changes
+  - Always consider corporate policies, procedures, impacts before implementing changes
     - Step 1: Identify Problem
       - Ask the user
-      - Inquire regarding environmental or infastructure changes.
+      - Inquire regarding environmental or infrastructure changes.
       - Review system logs
     - Step 2: Establish a theory of probable cause (question the obvious)
-    - Step 3: Test the thory to determine cause
-      - if theory isnt confirmed, re-establish new theory
+    - Step 3: Test the theory to determine cause
+      - if theory isn't confirmed, re-establish new theory
       - escalate the issue, if required
     - Step 4: Establish a plan of action to resolve the problem and implement the solution
     - Step 5: Verify full system functionality and, if applicable, implement preventive measures
     - Step 6: Document findings, actions, and outcomes
+
+## The Visible Computer
+### Chapter 1
+
+- Objective 3.6 - Purposes and uses of various peripheral types
+
+  - System Unit
+    - Motherboard
+    - CPU
+    - RAM
+    - Hard Drive
+  - Monitor
+    - Output interface
+  - Keyboard and Mouse
+  - Printer
+  - Speakers
+  - Game Controller
+  - Web Cam
+  - External Hard Drive
+  - Headset
+  - Microphone for output
+
+- Objective 3.2 - Common Connector Types
+
+- External Connections - Back
+  - USB (Universal Serial Bus) connections
+  - Network Cable Connectors - RJ-45
+  - Sound Connectors - Square is fiber optic connection
+  - Video Connections
+    - DVI - Digital Video Interface
+    - Display Port
+    - HDMI (High Digital Multimedia Interface)
+  - Power Connection
+
+- External Connections - Front
+  - ON Off connections - Audio visual controls
+  - USB connections
+  - Mic and Speaker connections
+
+- External Connections - Older
+  - Power connections
+  - mini-DIN (PS/2) - Mouse and Keyboard
+  - Parallel Port (LTP port)
+  - Serial Port
+  - VGA - Video Graphics Array
+  - 1st gen USB
+  - RJ-45
+  - DVI
+  - S-video connector
+
+- External Connections - Laptops
+  - Anti theft
+  - RJ-45
+  - USB
+  - Mini Display
+  - USB-C
+  - SD Card Slot
+  - Optical media - CD port
+
+
+### Chapter 2 - Inside the Computer
+
+- Objective 3.5 - install and configure computer setup
+  - 
