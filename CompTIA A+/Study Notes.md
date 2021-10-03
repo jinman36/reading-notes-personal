@@ -4,7 +4,7 @@
 
 ### End Date
 
-### Hours countdown: 1.1 / 34.11
+### Hours countdown: 2.19 / 34.11
 
 ### Link
 
@@ -172,4 +172,122 @@
 ### Chapter 2 - Inside the Computer
 
 - Objective 3.5 - install and configure computer setup
-  - 
+  - PCIe - expansion slots
+  - Chipset - defines features the motherboard can handle
+  - Front Panel Connectors
+  
+  - recognize the position and shape of power supplies and video cards
+  - Be familiar with the parts of the motherboard
+  - make sure you can recognize the function of core components: RAM sticks, CPU, M.2 SSDs, and hard drives
+  - Understand the function of expansion slots
+
+- What is a computer?
+  - CPU
+  - Mass storage - M.2 SSD solid state drive
+  - Hard drive - spinning plate
+
+  - 4 main components to consider something a computer
+    - CPU
+    - RAM
+    - Mass storage
+    - Operating System
+
+- Objective 1.1
+
+- Operating System types and their purposes
+
+  - What is an Operating System?
+    - Program to run all the programs
+    - Kernal
+      - Process ID
+    - Hardware
+    - Device drivers
+    - Storage
+  - All operating systems store folders and files - just getting used to how it accomplishes this
+  - Networking
+
+  - An operating system controls all the programs on a computer
+  - the core of an operating system is the kernal
+  - Running programs are called processes
+  - Operating systems use device drivers to talk to hardware
+
+- Objective 1.5
+  - Users and Super Users
+
+    - All operating systems have user accounts with encrypted passwords
+    - All operating systems have super user accounts that have complete access to everything
+    - the windows super user is called Administrator
+    - the linux and macOS super user is called Root
+
+- Objective 1.1
+  - Compare different OS
+
+    - Microsoft invented the concept of per-processor agreements
+    - every windows system has its own local usernames and passwords
+    - Windows Active Directory domains store domain usernames and passwords
+    - Single sign on (SSO) enables users to log in using their domain accounts anywhere on the network
+    - Both OS X and Linux use Windows networking for single sign on
+
+- Objective 1.2
+  - Windows editions and Versions
+
+    - Home Editions
+    - Professional Editions
+    - Enterprise Editions
+  
+  - Versions
+    - Windows 7, 8, 8.1, 10
+
+    - Windows 7
+      - **Media Center - is on th exam** - this is the last version to have this
+      - Classic task bar
+      - Control Panel
+
+    - Windows 8
+      - no start button
+      - metro desktop - using tiles
+      - Introduced Microsoft store
+      - Charms bar - introduced settings
+      - Onedrive - cloud storage
+    
+    - Windows 8.1
+      - Start button is back!
+    
+    - Windows 10
+      - Last numbered version of Windows 
+      - Charms bar is gone
+      - Start menu is redesigned with the tiles
+      - Settings has taken over the control panel but CP still exists
+      - No media center for W10
+
+    - Be comfotable with the differnt windows editions
+    - recognize whxih editions can join a dowmain
+
+- Objective 1.1
+  - MacOS
+
+    - Apple menu - changes on active application
+    - status menu
+    - Dock - programs that are used most
+    - single click
+    - command + Q - to quit applications
+    - Finder is similar to file explorer
+  
+  - The current Apple workstation operating system is macOS
+  - Recognize the main parts of the macOS desktop
+  - Make sure you can manipulate application windows and dialog boxes
+  - Understand the functions of finder, system Preferences, and the terminal
+
+- Objective 1.1
+  - Touring Linux
+
+    - GNU's not UNIX
+    - Ubuntu - best version of Linux :)
+    - Fedora Linux Interface - KDE desktop Interface
+    - Gnome
+  
+  - Linux is freeware under the GNU license
+  - Linux is commonly packaged in distributions (distros)
+  - Fedora, Mint, and Ubuntu are three popular distros
+
+
