@@ -4,7 +4,7 @@
 
 ### End Date
 
-### Hours countdown: 2.19 / 34.11
+### Hours countdown: 2.32 / 34.11
 
 - OTE = On the Exam
 
@@ -393,3 +393,36 @@
   - AM4
   - TR$
 
+- Review
+  - CPU sockets are the mount where a CPU connects to the motherboard
+  - CPUs micro-architectures
+  - Many different CPUs come from a single micro-architecture
+  - There are specific CPU socket packages covered on the A+
+
+- Objective 3.5
+  - Installing a CPU
+
+  - Orientation notch
+
+- review
+  - Make sure you have th eright socket and speed CPU for your motherboard
+  - Always use thermal paste between the CPU and th Fan
+  - Connect the fan to a power source
+
+- Objective 3.5 
+  - Liquid Cooling
+
+    1. Overclock
+    2. Quiet Fans
+
+    - Third party fans
+
+    - Liquid cooling system
+      - Closed liquid system
+        - Quieter
+        - Pulls more heat away than just a fan
+
+- Review
+  - Third party fans are often more efficient than OEM fans
+  - Liquid cooling uses a pump, a radiator and a cooling block with liquid to remove heat
+  - Liquid cooling reduces fan noise
