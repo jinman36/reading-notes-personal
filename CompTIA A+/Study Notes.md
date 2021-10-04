@@ -6,6 +6,8 @@
 
 ### Hours countdown: 2.19 / 34.11
 
+- OTE = On the Exam
+
 ### Link
 
 - [INFOSEC Skills](https://app.infosecinstitute.com/portal/skills/path/51/course/614/resource/6084?playlist_id=51&playlist_type=path&playlist_position=3)
@@ -239,7 +241,7 @@
     - Windows 7, 8, 8.1, 10
 
     - Windows 7
-      - **Media Center - is on th exam** - this is the last version to have this
+      - **OTE** Media Center- this is the last version to have this
       - Classic task bar
       - Control Panel
 
@@ -261,8 +263,8 @@
       - No media center for W10
 
   -Review
-    - Be comfortable with the different windows editions
-    - recognize which editions can join a domain
+  - Be comfortable with the different windows editions
+  - recognize which editions can join a domain
 
 - Objective 1.1
   - MacOS
@@ -344,8 +346,50 @@
   - Its common to have three caches in a CPU: L1, L2, and L3
 
 - Objective 1.1
-  - CPU grabs lines of code from RAM
-    - CPU has external data bus that connects throughout motherboard - RAM, etc...
-    - MCC - memory controller chip
+  - 32-bit vs, 64 Bit Processing
 
-  
+    - CPU grabs lines of code from RAM
+      - CPU has external data bus that connects throughout motherboard - RAM, etc...
+      - MCC - memory controller chip
+
+    - Address bus is a direct connection between the MCC and CPU
+      - This will tell the MCC which byte of data that it wants next
+- Almost all 64 bit processors can run 32 bit but not the other direction
+
+- **OTE** The correct operating system needs to be installed per the system processing (32b or 64b)
+
+- Modern installation media will query your system and install the correct processor speeds
+
+- 64b gives us more memory
+
+- x86 means 32b
+
+- Review
+  - CPUs come in 32-bit and 64bit versions
+  - 32 bit CPUs canot address more than 4 gigabytes of memory
+  - Operating systems come in both 32 and 64 bit versions
+  - Most 64 bit processors can run in 32 bit mode
+
+- Objective 3.5
+  - CPU Sockets
+
+  - itel Micro architect
+    - Nehalem 1st gen
+    - Sandy Bridge 2nd gen
+    - Ivy Bridge 3rd gen
+    - Haswell 4th gen
+    - Broadwell 5th gen
+    - Skylake 6th gen
+    - Kaby lake 7th
+    - Coffee lake 8th
+
+- PGA - pin grid arrary
+- LGA - Land grid Array
+
+- **OTE****Intel vs AMD CPU Socket types
+  - LGA 1151
+  - LGA 2066
+- AMD
+  - AM4
+  - TR$
+
