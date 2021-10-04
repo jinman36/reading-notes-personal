@@ -1,6 +1,6 @@
 # CompTIA A+ Study Notes
 
-### Start Date 10-1-2021
+## Start Date 10-1-2021
 
 ### End Date
 
@@ -111,6 +111,7 @@
     - Step 6: Document findings, actions, and outcomes
 
 ## The Visible Computer
+
 ### Chapter 1
 
 - Objective 3.6 - Purposes and uses of various peripheral types
@@ -167,7 +168,6 @@
   - USB-C
   - SD Card Slot
   - Optical media - CD port
-
 
 ### Chapter 2 - Inside the Computer
 
@@ -249,19 +249,20 @@
       - Introduced Microsoft store
       - Charms bar - introduced settings
       - Onedrive - cloud storage
-    
+
     - Windows 8.1
       - Start button is back!
-    
+
     - Windows 10
-      - Last numbered version of Windows 
+      - Last numbered version of Windows
       - Charms bar is gone
       - Start menu is redesigned with the tiles
       - Settings has taken over the control panel but CP still exists
       - No media center for W10
 
-    - Be comfotable with the differnt windows editions
-    - recognize whxih editions can join a dowmain
+  -Review
+    - Be comfortable with the different windows editions
+    - recognize which editions can join a domain
 
 - Objective 1.1
   - MacOS
@@ -273,6 +274,7 @@
     - command + Q - to quit applications
     - Finder is similar to file explorer
   
+  -Review
   - The current Apple workstation operating system is macOS
   - Recognize the main parts of the macOS desktop
   - Make sure you can manipulate application windows and dialog boxes
@@ -286,8 +288,64 @@
     - Fedora Linux Interface - KDE desktop Interface
     - Gnome
   
+  - Review
   - Linux is freeware under the GNU license
   - Linux is commonly packaged in distributions (distros)
   - Fedora, Mint, and Ubuntu are three popular distros
 
+## CPUs
+  
+- Objective 3.5
+  - What is a CPU?
+    - Registers - AX, BX, CX, DX - general purpose registers
+      - Pre-fetch
+      - Integer Math
+      - Long Numbers
+      - Cache
 
+- Review
+  - central Processing units run programs
+  - Every CPU has internal features to process commands
+  - Every CPU runs code based on a specific machine language
+  - CPUs use pipelines to optimize the processing commands
+
+- Objective 3.5
+  - CPU Speeds
+
+- CPU manufacturers - Both speak the same language
+  - Intel
+  - AMD
+
+- Clock multiplying
+  - 95% of the clicks of the clock are internal to the CPU
+
+- **Freeware** CPUID CPU-Z - can detect CPU of the the system and identify the micro-architecture
+
+  - Hyper threading
+
+- Review
+  - CPUs have a clock speed, commonly measued in GHz (billions of cycles/sec)
+  - CPUs come in primarily two makes: intel and AMD
+  - CPUs take a system speed and multiply it to reach the Max CPU speed
+  - Single CPUs often have multiple cores
+
+- Objective 3.5
+  - Cache
+
+    - Level 1 Cache - runs at the multiplied speed of the CPU
+    - Level 2 cache - feeds lvl 1 - bigger but runs slower than clock
+    - Level 3 cache - runs around the base motherboard speed - Very large
+
+      - Set association - Higher scope than the A+ exam
+
+- Review
+  - CPU caching works between RAM and the CPU
+  - Cache is built into the CPU
+  - Its common to have three caches in a CPU: L1, L2, and L3
+
+- Objective 1.1
+  - CPU grabs lines of code from RAM
+    - CPU has external data bus that connects throughout motherboard - RAM, etc...
+    - MCC - memory controller chip
+
+  
