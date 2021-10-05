@@ -455,7 +455,7 @@ Sorting Lists 2
 
 - a list will be created for data that is similar, and that can be changed (order, etc...)
 
-## COmbining lists using the Zip function
+## Combining lists using the Zip function
 
 - Zip() - able to incorporate two lists into the same data string
 

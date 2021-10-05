@@ -4,7 +4,7 @@
 
 ### End Date
 
-### Hours countdown: 2.32 / 34.11
+### Hours countdown: 3.01 / 34.11
 
 - OTE = On the Exam
 
@@ -409,7 +409,7 @@
   - Always use thermal paste between the CPU and th Fan
   - Connect the fan to a power source
 
-- Objective 3.5 
+- Objective 3.5
   - Liquid Cooling
 
     1. Overclock
@@ -426,3 +426,91 @@
   - Third party fans are often more efficient than OEM fans
   - Liquid cooling uses a pump, a radiator and a cooling block with liquid to remove heat
   - Liquid cooling reduces fan noise
+
+## RAM
+
+- Objective 3.3
+  - Install RAM types
+
+- SDRAM - synchronus RAM
+  - Runs at the speed of the MB
+- DDR SDRAM (DDR ram) - DOuble data rate RAM
+- DDR2 - double the speed of the DDR rating
+- **OTE** PC Ratings - Multiply the DDR rating x8 to get the PC Rating
+- DDR3 - double from DDR2
+- DDR 4 - Fastest RAM described on A+ test
+
+- Review
+  - Different motherboards support a specific RAM technology
+  - the tech on the exam are DDR, DDR2, DDR3, and DDR4
+  - We measure RAM speeds using DDR or PC ratings
+  - Multiply a DDR speed by eight to get the PC speed
+
+- Objective 3.3
+  - RAM Capacity
+
+- RAM is based on a square - so RAM is incremented by its self
+- Double sided RAM - Allows RAM to extend by double
+
+- Channels
+  - Dual-Channel Memory
+
+- Review
+  - Every stick of RAM has a specific capacity
+  - RAM comes in single and double sided versions
+  - Motherboards offer multichannel memory
+  - RAM should be identical in the same channel
+
+Objective 3.3
+
+- RAM features
+
+- Parity vs ECC
+- SO-DIMMS - smaller sized RAM
+
+-SPD Chip - Serial Presence Detect
+
+- review
+  - Parity and ECC RAM contain extra chips to check for RAM errors
+  - ECC Rm is only for motherboards that support it
+  - SO-DIMMS are for smaller spaces
+  - Almost all RAM has an SPD chip that stores information about the RAM stick
+  - Tools like CPU-Z read SPD information
+
+- Objective 3.3
+  - Installing RAM
+
+- Review
+  - Use the motherboard book to make sure you're installing the right RAM capacity and speed
+  - Line up the notch and drop the RAM straight into the slot
+  - Watch when the system boots to verify the system sees the installed RAM
+  - Make sure RAM is fully installed and channels are properly filled
+
+- Objective 1.6
+  - Virtual Memory
+
+- You cant have too much RAM on your computer
+
+  - Automatically manage paging file size
+
+- Review
+  - Virtual memory is a portion of mass storage that acts as memory
+  - SHold only be used when physical memory is exhausted
+  - All operating systems have tools to adjust virtual memory use
+  - In most cases we just let the OS automatically control virtual memory use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
