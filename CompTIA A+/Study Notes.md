@@ -4,7 +4,7 @@
 
 ### End Date
 
-### Hours countdown: 3.01 / 34.11
+### Hours countdown: 4.17 / 34.11
 
 - OTE = On the Exam
 
@@ -498,6 +498,125 @@ Objective 3.3
   - SHold only be used when physical memory is exhausted
   - All operating systems have tools to adjust virtual memory use
   - In most cases we just let the OS automatically control virtual memory use
+
+## Bios
+- Objective 3.5
+
+  - Basic input/ output services
+  - Bios code programming - firmware
+    - Allows us to talk to the hardware of the computer
+       - Mass storage devices
+
+- Review
+  - BIOS programming enables interaction with motherboard before OS loads
+  - BIOS is stored in nonvolatile media, thus called firmware
+  - POST routines are built into firmware
+  - The system setup utility is also part of the firmware
+
+### Post
+  - Objective 3.5
+
+  - POST - power on self test
+    - broadcast across the mother board and tells everything to check itself out
+      - When it gives a positive response - the cycle will start up
+  
+  - Beep Codes
+    - Primitive types of error codes
+  
+  - Post cards
+    - use these pre anytype of communications available from the POST
+    - displays with 2 hexidecimal numbers
+    - need to look at the motherboard manual to find the Q-codes/ POST error codes
+    
+- Review
+  - POST runs at Boot, requesting devices to self check
+  - POST errors manifest as specific beep codes or display (text) codes
+  - POST cards enable testing of 'dead' computers
+
+### Firmware - system setup
+- Objective 3.5
+
+  - UEFI - Universal Extensive Firmware Interface (BIOS)
+  
+  - System Setup - that we can get to from our computer to make changes to our set up
+    - access before the system fully boots
+
+- Review
+  - UEFI replaces traditional 16-bit BIOS in modern systems
+  - The system setup enables custom information about changeable devices
+  - System setup enables changes to PU frequencies, RAM timings, BIOS passwords, boot options, and more
+
+### Troubleshooting firmware
+  - Objective 3.5
+
+  - RTC - real time clock
+  - ROM - Read only memory
+
+   - CMOS battery
+
+- Review
+  - The real time clock battery keeps system time without external power
+  - System setup allows for changes; exit without saving is an option
+  - Reset system setup for defaults
+  - Flash the ROM chip to update firmware
+
+  ## Motherboards
+
+  ### Form Factors
+    - Objective 3.5
+
+    - **OTE** Four Specific types of form factors
+      ATX - biggest common form factor 12 x 9.6 inches
+      Micro ATX - 9.6 x 9.6 in
+      Mini ITX - designed for small systems - smallest common form factor
+      ITX - larger version of the mini itx - very uncommon
+
+    - I/O shield - the shape of the IO shield is the same size shields
+
+- review
+  - Motherboards and cases follow standardized form facots
+  - common form facot: ATX, microATX, mini-ITX
+  - Power supplies offer standardized connectors
+
+### Chipsets
+  - Objective 3.5
+
+  - North bridge, south bridge chipsets - both are required
+    - Todays systems can have single chip sets
+
+- Review
+  - Cheipsets combine functions from many single function chips
+  - Early chipsets offered Nothbridge and southbridge
+  - Modern chipsets feature southbridge (handles northbridge functions)
+  - Chipsets define RAM capacity, USB capabilities, and much more
+
+### Touring the Motherboard
+- Objective 3.5
+
+- Review
+  - the motherboard manual provides essential setup information
+  - Motherboards come with cables, standard connectors, and more
+  - PCIe is the most common expansion bus, it offers multiple lanes
+
+### Touring the case
+- Objective 3.5
+
+- Review
+  - Cases offer standardized standouts for mounting various motherboard form factors
+  - Better cases offer cable managements features
+  - Pick a case that has support for number and type of drives needed
+
+### Installing the motherboard
+ 
+ - Review
+  - Install and test CPU and RAM on motherboard before putting in case
+  - Install I/O shield and triple check standoff positions
+  - Mount motherboard and connect mother board cables
+  - Use the motherboard manual if necessary
+
+
+
+
 
 
 
