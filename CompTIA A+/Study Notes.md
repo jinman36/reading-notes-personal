@@ -4,7 +4,7 @@
 
 ### End Date
 
-### Hours countdown: 4.17 / 34.11
+### Hours countdown: 5.23 / 34.11
 
 - OTE = On the Exam
 
@@ -614,6 +614,88 @@ Objective 3.3
   - Mount motherboard and connect mother board cables
   - Use the motherboard manual if necessary
 
+## Power Supply
+### The Power Supply
+	
+  - Objective 3.7
+
+  - Review
+      -	Power supplies transform AC from wall outlet to DC for the computer
+      -	Standard connectors for the motherboard are 20-24 pin ATX and 4-8 pin P4
+      -	Use Molex and SATA connectors for peripherals and drives
+### Mounting a Power Supply
+  -	Objective 3.7
+
+-	Review
+    - Mount power supply in case with four screws
+    - Orient the power supply so fans draw air from system
+    - connect motherboard primary and secondary power
+    - modular PSUs offer less cable clutter than non-modular PSUs
+
+### Choosing a power supply
+-	Objective 3.7
+
+-	When we buy a power supply, we are looking at Watts (Volts x Amps = watts)
+-	80 + rating system
+
+-	Review
+
+    -	Get a PSU with a little more wattage than your system needs
+    -	Shop higher-efficiency power supplies
+    -	Modular power supplies cut down cable clutter
+
+### Power Protection
+-	Objective 4.5
+
+-	Spikes and sags
+
+-	120v
+  -	60 cycles/second = 60 Hz
+-	Short term voltage dip
+-	Sag/ brownout intentional power or unintentional power drop
+-	Spikes/surge – Provide far more voltage than what you are expecting
+
+-	Surge protector – catch big voltage spike to keep your equipment safe
+
+-	On/Off button – with a trip alert
+
+-	UPS – uninterruptible power supply
+
+-	Review
+    -	Electricity from the source is imperfect
+    -	Use surge protector/suppressor to protect against spikes
+    -	Use UPS to protect against brownouts and blackouts
+
+### Cooling your system
+-	Objective 3.5
+-	Heat is bad, um kay
+
+-	Review
+    -	A heat sink draws heat from the electrical components
+    -	Fans blow heated air through and out of the system
+    -	Fan speed and noise can be controlled through firmware or software
+
+### Trouble shooting Power supplies
+-	Objective 5.2
+-	PSU take the most abuse in the system – need to be comfortable trouble shooting
+-	If voltages are steadily decreasing – replace the power supply
+
+-	Review
+    -	Power supplies die fast with burning smells, smoke, or both
+    -	Power supplies die slowly and cause intermittent problems
+    -	Use PSU tester or multimeter to test power supplies
+
+### Troubleshooting core components
+-	Objective 5.2
+
+-	If things are wrong at the beginning it is better to break it back down and restart on initial set up
+-	This will help identify any issues early in the process
+
+-	Review
+    -	Incorrectly installed CPUs or RAM can make it seem like your PC is dead
+    -	Install core components and test before mounting into the case
+    -	Errors in System setup can cause a dead PC; try clearing the CMOS jumper
+    -	Windows offers memory diagnostic tools to help with potentially bad RAM
 
 
 
